@@ -36,8 +36,8 @@ If all cells are filled with no winner → result is a draw.
 🚀 Run the Game
 
 In your terminal:
-
-python tic_tac_toe.py
+# bash
+## python tic_tac_toe.py
 
 💡 Future Improvements
 
