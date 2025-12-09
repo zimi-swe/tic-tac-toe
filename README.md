@@ -16,10 +16,10 @@ A simple and clean-coded Tic-Tac-Toe game built in Python. Designed for two play
 
 🤝 Draw detection
 
-📂 Project Structure
-/tic-tac-toe
-│── tic_tac_toe.py
-└── README.md
+# 📂 Project Structure
+# /tic-tac-toe
+# │── tic_tac_toe.py
+# └── README.md
 
 ▶️ How to Play
 
