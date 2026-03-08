@@ -40,23 +40,23 @@ class TicTacToe:
                 r = int(input("Enter row (0-2): "))
                 c = int(input("Enter column (0-2): "))
             except ValueError:
-                print("❗ Invalid input! Please enter numbers only.")
+                print(" Invalid input! Please enter numbers only.")
                 continue
 
             if not self.is_valid_move(r, c):
-                print("❗ Invalid or occupied position! Try again.")
+                print(" Invalid or occupied position! Try again.")
                 continue
 
             self.make_move(r, c)
 
             if self.is_winner(self.current):
                 self.display()
-                print(f"🎉 Player {self.current} wins!")
+                print(f" Player {self.current} wins!")
                 break
 
             if self.is_draw():
                 self.display()
-                print("🤝 It's a draw!")
+                print(" It's a draw!")
                 break
 
             self.switch_player()
@@ -64,3 +64,4 @@ class TicTacToe:
 if __name__ == "__main__":
     game = TicTacToe()
     game.play()
+
